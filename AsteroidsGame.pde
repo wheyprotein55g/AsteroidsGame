@@ -43,7 +43,7 @@ public void draw()
     Matthew.turn(-5);
   }
   if (wPressed == true) {
-    Matthew.accelerate(1);
+    Matthew.accelerate(0.1);
   }
   if (dPressed == true) {
     Matthew.turn(5);
