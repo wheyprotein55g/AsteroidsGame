@@ -42,6 +42,9 @@ public void draw()
   if (aPressed == true) {
     Matthew.turn(-5);
   }
+ if (spacePressed == true) {
+    bulls.add(new Bullet(garvin));
+  }
   if (wPressed == true) {
     Matthew.accelerate(0.1);
   }
