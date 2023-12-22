@@ -43,7 +43,7 @@ public void draw()
     Matthew.turn(-5);
   }
  if (spacePressed == true) {
-    bulls.add(new Bullet(garvin));
+    bulls.add(new Bullet(Matthew));
   }
   if (wPressed == true) {
     Matthew.accelerate(0.1);
